@@ -7,3 +7,5 @@ const config = {
     db: 'platzigram'
   }
 }
+
+module.exports = config

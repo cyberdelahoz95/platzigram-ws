@@ -1,0 +1,23 @@
+{
+  "name": "platzigram-ws",
+  "version": "0.1.0",
+  "description": "Platzigram RealTime Backend",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "start": "node server.js"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "author": "Henry de la Hoz",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^7.2.1",
+    "standard": "^9.0.2",
+    "uuid-base62": "^0.1.0"
+  },
+  "dependencies": {
+    "rethinkdb": "^2.3.3",
+  }
+}
